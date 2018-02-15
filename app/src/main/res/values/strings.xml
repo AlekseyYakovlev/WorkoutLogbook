@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">Workout Logbook</string>
+    <string name="ipsum" translatable="false">Praesent sem diam, ultricies a ligula vitae, venenatis laoreet sapien. Nam nec urna id dui egestas interdum vel fermentum felis. Pellentesque elementum dapibus nulla ut interdum. Suspendisse hendrerit a massa vel pulvinar. Donec purus risus, molestie eget nisl sit amet, bibendum pretium purus. Aenean at lacus ac odio blandit viverra et laoreet nulla. Morbi efficitur purus sit amet urna finibus, at porta tellus sollicitudin. Proin ut tortor sit amet dui ullamcorper luctus. Sed aliquam cursus dolor, ornare aliquam massa eleifend quis. Proin non dignissim orci. In mollis maximus nisl, ut cursus nibh efficitur sed. In mattis efficitur pretium. Ut in velit enim.
+
+Morbi in elementum erat. Donec ac finibus eros, ac condimentum nisl. Maecenas et dui pretium, ullamcorper orci sit amet, tristique justo. Phasellus efficitur vitae diam at volutpat. Integer varius viverra pellentesque. Phasellus augue odio, pretium porttitor tortor ac, placerat ultrices nunc. Sed in purus ex. Donec quis metus est. Suspendisse sit amet mollis dui, vitae consequat nisl. Ut ut lacus nunc.
+
+Praesent vel nulla aliquam, commodo diam ac, aliquam justo. Nunc id ligula facilisis, venenatis purus eget, ultricies nunc. Etiam blandit purus velit, non maximus enim facilisis nec. In in elit vitae eros semper commodo. Proin eleifend mi vitae sollicitudin porta. Nunc aliquam nunc et est ultricies tempor. Sed tincidunt sit amet leo eu pellentesque.
+
+Integer porta massa sem, vitae venenatis mauris facilisis nec. Morbi pulvinar nunc quam, eu congue turpis hendrerit vel. Mauris ut pellentesque lacus, id interdum nisi. Aenean et risus felis. Proin ac blandit magna, eget fringilla urna. Nullam mollis vestibulum erat et venenatis. Nulla facilisi. Praesent tellus dolor, lacinia ut blandit eget, vulputate ultricies lorem. Morbi euismod urna a quam ornare, sed semper orci feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec auctor, nulla non dictum ultrices, sem arcu euismod nibh, vel aliquam quam urna ultricies erat. Donec imperdiet nisi sit amet mi elementum porta. Aliquam sed nulla consectetur, tincidunt elit in, finibus lectus. Sed in nisi quis justo volutpat iaculis. Nam aliquam sem ac sem malesuada facilisis. Nulla facilisi.
+
+Aenean porttitor metus in tellus rhoncus lobortis. Vestibulum elementum lectus eget vehicula scelerisque. Praesent tristique accumsan lorem sed tempus. Nunc porta dignissim ex, sed pharetra velit rutrum vel. Mauris vitae sodales tortor. Praesent ac nibh congue, ultrices sem nec, ornare dolor. Quisque aliquet leo et elit tincidunt, quis faucibus metus pretium. Nulla viverra luctus vehicula. Maecenas dapibus hendrerit felis, non pharetra arcu scelerisque id. Nunc vitae arcu at massa porta dignissim dignissim a lacus. Vivamus gravida felis sed urna sollicitudin aliquet. Nulla facilisi.</string>
+    <string name="plus_button" translatable="false">+</string>
+    <string name="minus_button" translatable="false">-</string>
+    <string name="last_record_date">Date of last top record: %1$s</string>
+    <string name="last_record">Last top record: %1$d</string>
+    <string name="workout_title">Exercise</string>
+    <string name="save">Save</string>
+    <string name="weight">Weight:</string>
+    <string name="tvWeight">Weight:</string>
+    <string name="tv_exercise">Exercise</string>
+    <string name="reps_count">Repeats:</string>
+    <string name="tvRepeats">Repeats:</string>
+    <string name="tv_last_top_record">Last top record</string>
+    <string name="tv_last_top_record_date">Date of last top record</string>
+    <string name="action_show">Show more</string>
+    <string name="action_share">Share</string>
+    <string name="snack_bar_share_question">Share your accomplishments in %s?</string>
+    <string name="messageText">My results in %s are %d repeats</string>
+    <string name="messageSubject">My results in %s</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

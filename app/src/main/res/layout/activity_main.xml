@@ -4,4 +4,5 @@
     android:id="@+id/container_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ru.spb.yakovlev.workoutlogbook.activities.MainActivity"/>
+    tools:context="ru.spb.yakovlev.workoutlogbook.activities.DrawerActivity"
+    tools:showIn="@layout/app_bar_drawer"/>

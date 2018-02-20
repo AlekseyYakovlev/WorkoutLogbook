@@ -5,7 +5,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -27,6 +26,7 @@ public class DrawerActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawer);
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -110,18 +110,17 @@ public class DrawerActivity extends AppCompatActivity
     }
 
     public void onWorkoutSelected(int position) {
-        // The user selected the headline of an article from the HeadlinesFragment
+        // The user selected the headline of an article from the WorkoutDetails
 
         // Capture the article fragment from the activity layout
         WorkoutDetail workoutFrag = (WorkoutDetail) getSupportFragmentManager()
                 .findFragmentById(R.id.fragment_container_workout_detail);
 
         if (workoutFrag != null) {
-            // If article frag is available, we're in two-pane layout...
+            // If workoutFrag frag is available, we're in two-pane layout...
 
-            // Call a method in the ArticleFragment to update its content
+            // Call a method in the WorkoutDetails to update its content
             workoutFrag.updateWorkoutView(position);
-            //Toast.makeText(getApplicationContext(), "Позиция элемента " +  String.valueOf(position), Toast.LENGTH_SHORT).show();
 
         } else {
             // If the frag is not available, we're in the one-pane layout and must swap frags...

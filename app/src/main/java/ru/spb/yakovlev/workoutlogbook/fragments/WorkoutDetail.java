@@ -79,18 +79,24 @@ public class WorkoutDetail extends Fragment {
 
         ImageView exercisePic = view.findViewById(R.id.detail_workout_image_view);
         exercisePic.setImageResource(workout.getImageResId());
+
+        addListeners();
     }
 
     private void addListeners() {
-        minusButton.setOnClickListener( v-> {
-                if (repeatCount > 0) {
-                    repeatCount--;
-                } else {
-                    repeatCount = 0;
-                }
-                repeatCountTextView.setText(String.valueOf(repeatCount));
+        plusButton.setOnClickListener(v -> {
+            repeatCount++;
+            repeatCountTextView.setText(String.valueOf(repeatCount));
         });
+
+        minusButton.setOnClickListener(v -> {
+            repeatCount--;
+            if (repeatCount < 0) repeatCount = 0;
+            repeatCountTextView.setText(String.valueOf(repeatCount));
+        });
+
     }
+
     @Override
     public void onStart() {
         super.onStart();

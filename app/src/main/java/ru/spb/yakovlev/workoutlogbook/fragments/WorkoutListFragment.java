@@ -27,6 +27,8 @@ import ru.spb.yakovlev.workoutlogbook.model.WorkoutList;
 
 
 public class WorkoutListFragment extends Fragment {
+    //TODO: Сделать контекстное меню (по долгому тапу) для карточек
+
     private static final String TAG = "MainActivity";
     RecyclerView workoutRecyclerView;
     WorkoutAdapter adapter;

@@ -16,6 +16,11 @@ import ru.spb.yakovlev.workoutlogbook.model.WorkoutList;
 
 
 public class WorkoutDetail extends Fragment {
+    //TODO: Починить перенос значений из фрагмента WorkoutDetails в карточки ресайкла
+    // Создать интерфейс и через него возвращать?
+    // Или сделать через БД?
+
+
     private static final String TAG = "WorkoutDetailFragment";
     private static final String WORKOUT_INDEX = "WORKOUT_INDEX";
     private static final String REP_COUNT_STATE = "WORK_INDEX_STATE";

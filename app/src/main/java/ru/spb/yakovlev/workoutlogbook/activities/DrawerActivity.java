@@ -31,6 +31,7 @@ public class DrawerActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = findViewById(R.id.fab);
+        //TODO: Задать действия на элементы Летающую кнопку
         fab.setOnClickListener(view -> Snackbar
                 .make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null)
@@ -87,6 +88,7 @@ public class DrawerActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
+        //TODO: Задать действия на элементы Дровера
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
@@ -117,6 +119,7 @@ public class DrawerActivity extends AppCompatActivity
                 .findFragmentById(R.id.fragment_container_workout_detail);
 
         if (workoutFrag != null) {
+            //TODO: Починить планшетный режим
             // If workoutFrag frag is available, we're in two-pane layout...
 
             // Call a method in the WorkoutDetails to update its content
